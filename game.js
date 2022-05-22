@@ -49,7 +49,7 @@ function checkClick(currentLevel){
         var wrongSound = new Audio("sounds/wrong.mp3");
         wrongSound.play();
         $("body").addClass("game-over");
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over, Press Any Key to Restart or Touch The Screen");
         setTimeout(function () {
             $("body").removeClass("game-over");
           }, 200);
